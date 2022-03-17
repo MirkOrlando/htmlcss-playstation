@@ -10,7 +10,8 @@
 .debug .slighter,
 .debug .jumbotron-adventure,
 .debug .ps5,
-.debug .ps4 {
+.debug .ps4,
+.debug .ps-plus {
     background-color: lightblue;
     border: 1px solid grey;
 }
@@ -30,6 +31,10 @@
     --prymary: #2D64E6;
     /* bg-new-game */
     --dark: #1F1F1F;
+    /* bg-ps-plus */
+    --light: #BEBCBB;
+    /* btn ps-plus */
+    --lighter: #D9DADC;
 }
 
 body {
