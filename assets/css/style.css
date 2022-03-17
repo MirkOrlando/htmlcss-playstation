@@ -10,7 +10,7 @@
     border: 1px solid grey;
 }
 
-.debug .ps-brand,
+.debug .header-top,
 .debug .jumbotron-break,
 .debug .slighter,
 .debug .jumbotron-adventure,
@@ -46,7 +46,16 @@
 }
 
 body {
+    overflow-x: hidden;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 /* #endregion common */
+
+/* #region utility */
+
+.logo {
+    width: 50px;
+}
+
+/* #endregion utility */
