@@ -4,7 +4,8 @@
     background-color: lightcoral;
 }
 
-.debug .ps-brand {
+.debug .ps-brand,
+.debug .jumbotron {
     background-color: lightblue;
 }
 
@@ -13,6 +14,10 @@
 /* #region common */
 
 :root {
+    /* .main-menu btn accedi */
+    --dark: #363636;
+    /* .btn acquista ora */
+    --altenative: #CD3D0F;
 
 }
 
