@@ -69,8 +69,8 @@ body {
     transition: all 150ms linear;
 }
 
-ul.unstyled {
-    list-style: none;
+.play-mt-116 {
+    margin-top: 116px;
 }
 
 /* #endregion utility */
@@ -84,3 +84,14 @@ ul.unstyled {
 }
 
 /* #endregion hover */
+
+/* #region site-main */
+
+.jumbotron-break {
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    background-size: fill;
+    background-repeat: no-repeat;
+}
+
+/* #endregion site-main */
