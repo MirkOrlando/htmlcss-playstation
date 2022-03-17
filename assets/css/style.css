@@ -1,0 +1,23 @@
+/* #region debug */
+
+.debug [class^="col"] {
+    background-color: lightcoral;
+}
+
+.debug .ps-brand {
+    background-color: lightblue;
+}
+
+/* #endregion debug */
+
+/* #region common */
+
+:root {
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* #endregion common */
