@@ -58,11 +58,19 @@ body {
     width: 50px;
 }
 
+.item-play {
+    width: 80px;
+}
+
 .play-btn-paledark {
     color: #fff;
     background-color: var(--paledark);
     border-color: var(--paledark);
     transition: all 150ms linear;
+}
+
+ul.unstyled {
+    list-style: none;
 }
 
 /* #endregion utility */
