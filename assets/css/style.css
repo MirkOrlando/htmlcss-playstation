@@ -58,4 +58,11 @@ body {
     width: 50px;
 }
 
+.ps-btn-paledark {
+    color: #fff;
+    background-color: var(--paledark);
+    border-color: var(--paledark);
+}
+
+
 /* #endregion utility */
