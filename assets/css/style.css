@@ -6,8 +6,10 @@
 }
 
 .debug .ps-brand,
-.debug .jumbotron,
-.debug .slighter {
+.debug .jumbotron-break,
+.debug .slighter,
+.debug .jumbotron-adventure,
+.debug .ps5{
     background-color: lightblue;
     border: 1px solid grey;
 }
@@ -18,15 +20,15 @@
 
 :root {
     /* .main-menu btn accedi */
-    --dark: #363636;
+    --paledark: #363636;
     /* .btn acquista ora */
     --altenative: #CD3D0F;
     /* border-bottom accessorio */
     --paleprimary: #147DD2;
     /* bottoni */
     --prymary: #2D64E6;
-
-
+    /* bg-new-game */
+    --dark: #1F1F1F;
 }
 
 body {
