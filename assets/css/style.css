@@ -2,11 +2,14 @@
 
 .debug [class^="col"] {
     background-color: lightcoral;
+    border: 1px solid grey;
 }
 
 .debug .ps-brand,
-.debug .jumbotron {
+.debug .jumbotron,
+.debug .slighter {
     background-color: lightblue;
+    border: 1px solid grey;
 }
 
 /* #endregion debug */
