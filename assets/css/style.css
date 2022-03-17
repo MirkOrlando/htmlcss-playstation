@@ -5,13 +5,19 @@
     border: 1px solid grey;
 }
 
+.debug [class^="col"] [class^="col"] {
+    background-color: lightgreen;
+    border: 1px solid grey;
+}
+
 .debug .ps-brand,
 .debug .jumbotron-break,
 .debug .slighter,
 .debug .jumbotron-adventure,
 .debug .ps5,
 .debug .ps4,
-.debug .ps-plus {
+.debug .discounts,
+.debug .social {
     background-color: lightblue;
     border: 1px solid grey;
 }
@@ -35,6 +41,8 @@
     --light: #BEBCBB;
     /* btn ps-plus */
     --lighter: #D9DADC;
+    /* bg-ps-now */
+    --darkprimary: #161C3B;
 }
 
 body {
