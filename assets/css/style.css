@@ -58,11 +58,21 @@ body {
     width: 50px;
 }
 
-.ps-btn-paledark {
+.play-btn-paledark {
     color: #fff;
     background-color: var(--paledark);
     border-color: var(--paledark);
+    transition: all 150ms linear;
 }
 
-
 /* #endregion utility */
+
+/* #region hover */
+
+.play-btn-paledark:hover {
+    color: #fff;
+    outline: 2px solid white;
+    outline-offset: -4px;
+}
+
+/* #endregion hover */
