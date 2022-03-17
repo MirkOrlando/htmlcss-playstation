@@ -9,7 +9,8 @@
 .debug .jumbotron-break,
 .debug .slighter,
 .debug .jumbotron-adventure,
-.debug .ps5{
+.debug .ps5,
+.debug .ps4 {
     background-color: lightblue;
     border: 1px solid grey;
 }
