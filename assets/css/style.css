@@ -34,7 +34,7 @@
     /* border-bottom accessorio */
     --paleprimary: #147DD2;
     /* bottoni */
-    --prymary: #2D64E6;
+    --primary: #2D64E6;
     /* bg-new-game */
     --dark: #1F1F1F;
     /* bg-ps-plus */
@@ -43,6 +43,8 @@
     --lighter: #D9DADC;
     /* bg-ps-now */
     --darkprimary: #161C3B;
+    /* color text subtitle */
+    --lightprimary: #727272;
 }
 
 body {
@@ -70,6 +72,14 @@ body {
     border-radius: 20px;
 }
 
+.play-paleprimary {
+    color: var(--paleprimary);
+}
+
+.play-lightprimary {
+    color: var(--lightprimary);
+}
+
 .play-btn-paledark {
     color: #fff;
     background-color: var(--paledark);
@@ -81,6 +91,13 @@ body {
     color: #fff;
     background-color: var(--altenative);
     border-color: var(--altenative);
+    transition: all 150ms linear;
+}
+
+.play-btn-primary {
+    color: #fff;
+    background-color: var(--primary);
+    border-color: var(--primary);
     transition: all 150ms linear;
 }
 
@@ -102,6 +119,12 @@ body {
     outline-offset: -4px;
 }
 
+.play-btn-primary:hover {
+    color: #fff;
+    outline: 2px solid white;
+    outline-offset: -4px;
+}
+
 .play-btn-alternative:hover {
     color: #fff;
     outline: 2px solid black;
@@ -114,7 +137,7 @@ body {
 }
 
 .slighter-cover:hover {
-    transform: translate(0, -30px);
+    transform: translate(0, -20px);
     cursor: pointer;
 }
 
