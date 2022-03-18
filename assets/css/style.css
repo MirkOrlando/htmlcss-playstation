@@ -131,6 +131,11 @@ body {
     transition: all 150ms linear;
 }
 
+.social-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
 .play-mt-116 {
     margin-top: 116px;
 }
@@ -293,17 +298,22 @@ body {
 
 /* #endregion slighter-items */
 
-/* #region jumbotron-adventure */
+/* #region media query */
 
-.jumbotron-adventure {
-    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-    background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
+@media screen and (max-width: 399.98px) {
+    
+    .social-container {
+        width: 100%;
+    }
+
 }
 
-/* #endregion jumbotron-adventure */
+@media screen and (min-width: 400px) {
+    
+    .social-container {
+        width: 400px;
+    }
 
+}
 
-/* #endregion site-main */
+/* #endregion media query */
