@@ -220,9 +220,19 @@ body {
 
 /* #region slighter-items */
 
-.slighter-items img {
-    filter: brightness(0.5);
+.slighter-item img {
+    filter: contrast(0.5) brightness(1.4);
 }
+
+.slighter-item.active img {
+    filter: none;    
+}
+
+.slighter-item.active {
+    border-bottom: 1px solid var(--paleprimary);    
+    color: black;
+}
+
 
 /* #endregion slighter-items */
 
