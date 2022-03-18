@@ -84,7 +84,11 @@ body {
     background-color: var(--dark);
 }
 
-.play-lh-1-25 {
+.play-bg-light {
+    background-color: var(--light);
+}
+
+.play-lh-1-5 {
     line-height: 1.5rem;
 }
 
@@ -106,6 +110,13 @@ body {
     color: #fff;
     background-color: var(--primary);
     border-color: var(--primary);
+    transition: all 150ms linear;
+}
+
+.play-btn-lighter {
+    color: var(--paleprimary);
+    background-color: var(--lighter);
+    border-color: var(--lighter);
     transition: all 150ms linear;
 }
 
@@ -148,6 +159,12 @@ body {
 .play-btn-alternative:hover {
     color: #fff;
     outline: 2px solid black;
+    outline-offset: -4px;
+}
+
+.play-btn-lighter:hover {
+    color: var(--paleprimary);
+    outline: 2px solid white;
     outline-offset: -4px;
 }
 
