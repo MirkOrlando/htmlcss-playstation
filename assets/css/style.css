@@ -42,9 +42,10 @@
     /* btn ps-plus */
     --lighter: #D9DADC;
     /* bg-ps-now */
-    --darkprimary: #161C3B;
+    --darkerprimary: #161C3B;
     /* color text subtitle */
     --primarylight: #727272;
+    --darkprimary: #00439C;
 }
 
 body {
@@ -88,9 +89,14 @@ body {
     background-color: var(--light);
 }
 
+.play-bg-darkerprimary {
+    background-color: var(--darkerprimary);
+}
+
 .play-bg-darkprimary {
     background-color: var(--darkprimary);
 }
+
 
 .play-lh-1-5 {
     line-height: 1.5rem;
@@ -125,7 +131,7 @@ body {
 }
 
 .play-btn-lightest {
-    color: var(--darkprimary);
+    color: var(--darkerprimary);
     background-color: white;
     border-color: white;
     transition: all 150ms linear;
@@ -154,6 +160,10 @@ body {
     line-height: 100%;
     font-size: 0.75rem;
     vertical-align: super;
+}
+
+.unstyled {
+    list-style: none;
 }
 
 /* #endregion utility */
@@ -274,6 +284,18 @@ body {
 
 /* #endregion slighter-games */
 
+/* #region jumbotron-adventure */
+
+.jumbotron-adventure {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+/* #endregion jumbotron-adventure */
+
 /* #region slighter-items */
 
 .slighter-item {
@@ -297,6 +319,21 @@ body {
 
 
 /* #endregion slighter-items */
+
+/* #endregion site-main */
+
+/* #region site-footer */
+
+.shared-nav-ps-logo {
+    fill: white;    
+    transform: scale(1.5);
+}
+
+.sony-logo-footer {
+    width: 200px;
+}
+
+/* #endregion site-footer */
 
 /* #region media query */
 
