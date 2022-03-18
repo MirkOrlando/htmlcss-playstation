@@ -88,6 +88,10 @@ body {
     background-color: var(--light);
 }
 
+.play-bg-darkprimary {
+    background-color: var(--darkprimary);
+}
+
 .play-lh-1-5 {
     line-height: 1.5rem;
 }
@@ -117,6 +121,13 @@ body {
     color: var(--paleprimary);
     background-color: var(--lighter);
     border-color: var(--lighter);
+    transition: all 150ms linear;
+}
+
+.play-btn-lightest {
+    color: var(--darkprimary);
+    background-color: white;
+    border-color: white;
     transition: all 150ms linear;
 }
 
