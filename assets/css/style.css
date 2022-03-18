@@ -80,6 +80,10 @@ body {
     color: var(--primarylight);
 }
 
+.play-bg-dark {
+    background-color: var(--dark);
+}
+
 .play-btn-paledark {
     color: #fff;
     background-color: var(--paledark);
