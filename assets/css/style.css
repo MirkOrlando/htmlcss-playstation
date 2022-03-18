@@ -44,7 +44,7 @@
     /* bg-ps-now */
     --darkprimary: #161C3B;
     /* color text subtitle */
-    --lightprimary: #727272;
+    --primarylight: #727272;
 }
 
 body {
@@ -76,8 +76,8 @@ body {
     color: var(--paleprimary);
 }
 
-.play-lightprimary {
-    color: var(--lightprimary);
+.play-primarylight {
+    color: var(--primarylight);
 }
 
 .play-btn-paledark {
@@ -107,6 +107,12 @@ body {
 
 .zindex-fixed {
     z-index: 1030;
+}
+
+.fa-trademark {
+    line-height: 100%;
+    font-size: 0.5rem;
+    vertical-align: super;
 }
 
 /* #endregion utility */
@@ -211,5 +217,14 @@ body {
 } 
 
 /* #endregion slighter-games */
+
+/* #region slighter-items */
+
+.slighter-items img {
+    filter: brightness(0.5);
+}
+
+/* #endregion slighter-items */
+
 
 /* #endregion site-main */
