@@ -58,6 +58,10 @@ body {
     width: 50px;
 }
 
+.hero-banner {
+    width: 200px;
+}
+
 .item-play {
     width: 80px;
 }
@@ -69,8 +73,19 @@ body {
     transition: all 150ms linear;
 }
 
+.play-btn-alternative {
+    color: #fff;
+    background-color: var(--altenative);
+    border-color: var(--altenative);
+    transition: all 150ms linear;
+}
+
 .play-mt-116 {
     margin-top: 116px;
+}
+
+.zindex-fixed {
+    z-index: 1030;
 }
 
 /* #endregion utility */
@@ -83,15 +98,53 @@ body {
     outline-offset: -4px;
 }
 
+.play-btn-alternative:hover {
+    color: #fff;
+    outline: 2px solid black;
+    outline-offset: -4px;
+}
+
 /* #endregion hover */
+
+/* #region site-header */
+
+.dropdown-toggle {
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-toggle::after {
+    border: 0;
+    content: "";
+    background-image: url(../img/chevron-down-solid.svg);
+    filter: brightness(0);
+    line-height: 100%;
+    vertical-align: middle;
+    width: 10px;
+    height: 10px;
+}
+
+.show::after {
+    border: 0;
+    content: "";
+    background-image: url(../img/chevron-down-solid-hover.svg);
+    line-height: 100%;
+    vertical-align: middle;
+    width: 10px;
+    height: 10px;
+    filter: none;
+}
+
+/* #endregion site-header */
 
 /* #region site-main */
 
 .jumbotron-break {
     background-image: url(../img/jumbo-bg.png);
-    background-position: center;
-    background-size: fill;
+    background-position: bottom;
+    background-size: cover;
     background-repeat: no-repeat;
+    height: calc(100vh - 116px);
 }
 
 /* #endregion site-main */

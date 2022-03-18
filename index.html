@@ -21,9 +21,9 @@
 
 <body>
 
-    <header id="site-header" class="position-fixed top-0 w-100">
+    <header id="site-header" class="position-fixed zindex-fixed top-0 w-100">
         <div class="header-top bg-dark d-flex justify-content-end">
-            <div class="logo logo-sony p-2">
+            <div class="logo logo-sony m-2">
                 <img src="./assets/img/sony_logo.svg" alt="" class="img-fluid">
             </div>
         </div>
@@ -41,13 +41,14 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <ul class="navbar-nav me-auto">
                             <li class="nav-item dropdown position-static">
                                 <a class="link-dark text-decoration-none p-2 d-block dropdown-toggle" href="#"
                                     id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Giochi
                                 </a>
-                                <ul class="dropdown-menu w-100 border-0" aria-labelledby="navbarDropdown">
+                                <ul class="dropdown-menu w-100 border-0 border-top border-bottom border-1 mt-0"
+                                    aria-labelledby="navbarDropdown">
                                     <li class="d-flex justify-content-center">
                                         <div class="item">
                                             <div class="item-play">
@@ -91,7 +92,8 @@
                                     id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Hardware
                                 </a>
-                                <ul class="dropdown-menu w-100 border-0" aria-labelledby="navbarDropdown">
+                                <ul class="dropdown-menu w-100 border-0 border-top border-bottom border-1 mt-0"
+                                    aria-labelledby="navbarDropdown">
                                     <li class="d-flex justify-content-center">
                                         <div class="item">
                                             <div class="item-play">
@@ -135,7 +137,8 @@
                                     id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Servizi
                                 </a>
-                                <ul class="dropdown-menu w-100 border-0" aria-labelledby="navbarDropdown">
+                                <ul class="dropdown-menu w-100 border-0 border-top border-bottom border-1 mt-0"
+                                    aria-labelledby="navbarDropdown">
                                     <li class="d-flex justify-content-center">
                                         <div class="item">
                                             <div class="item-play">
@@ -179,7 +182,8 @@
                                     id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Novità
                                 </a>
-                                <ul class="dropdown-menu w-100 border-0" aria-labelledby="navbarDropdown">
+                                <ul class="dropdown-menu w-100 border-0 border-top border-bottom border-1 mt-0"
+                                    aria-labelledby="navbarDropdown">
                                     <li class="d-flex justify-content-center">
                                         <div class="item">
                                             <div class="item-play">
@@ -223,7 +227,8 @@
                                     id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Fai acquisti
                                 </a>
-                                <ul class="dropdown-menu w-100 border-0" aria-labelledby="navbarDropdown">
+                                <ul class="dropdown-menu w-100 border-0 border-top border-bottom border-1 mt-0"
+                                    aria-labelledby="navbarDropdown">
                                     <li class="d-flex justify-content-center">
                                         <div class="item">
                                             <div class="item-play">
@@ -267,7 +272,8 @@
                                     id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Supporto
                                 </a>
-                                <ul class="dropdown-menu w-100 border-0" aria-labelledby="navbarDropdown">
+                                <ul class="dropdown-menu w-100 border-0 border-top border-bottom border-1 mt-0"
+                                    aria-labelledby="navbarDropdown">
                                     <li class="d-flex justify-content-center">
                                         <div class="item">
                                             <div class="item-play">
@@ -313,7 +319,8 @@
                                     id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     My PlayStation
                                 </a>
-                                <ul class="dropdown-menu w-100 border-0" aria-labelledby="navbarDropdown">
+                                <ul class="dropdown-menu w-100 border-0 border-top border-bottom border-1 mt-0"
+                                    aria-labelledby="navbarDropdown">
                                     <li class="d-flex justify-content-center">
                                         <div class="item">
                                             <div class="item-play">
@@ -352,9 +359,10 @@
                                     </li>
                                 </ul>
                             </div>
-                            <a href="" class="nav-item btn play-btn-paledark mx-3 rounded-pill">Accedi</a>
+                            <a href=""
+                                class="nav-item btn play-btn-paledark align-self-center mx-3 rounded-pill">Accedi</a>
                             <a href="" class="nav-item link-dark align-self-center d-flex">
-                                <i class="fa-solid fa-search" aria-hidden="true"></i>
+                                <img height="20px" src="./assets/img/lens.svg" alt="">
                             </a>
                         </div>
                     </div>
@@ -368,13 +376,25 @@
     <main id="site-main">
 
         <section class="jumbotron-break text-white play-mt-116">
-            <div class="container">
-                <div class="row">
-                    <div class="col col-lg-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat
-                        aspernatur distinctio nesciunt ipsum labore suscipit, unde error sit facere architecto?
-                        Excepturi veniam cumque iste vitae id vel suscipit unde temporibus quos nam necessitatibus
-                        labore facilis tempora ratione laboriosam nulla minus, eaque deleniti odit architecto
-                        consequatur. Odit iusto distinctio eveniet iste.</div>
+            <div class="container h-100">
+                <div class="row h-100 align-items-end">
+                    <div class="col col-lg-4">
+
+                        <div class="card bg-transparent">
+                            <div class="hero-banner m-2">
+                                <img src="./assets/img/returnal-hero-banner-logo.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h2 class="card-title pb-2">Rompi il cerchio</h2>
+                                <p class="card-text pb-3">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni
+                                    rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su
+                                    PS5</p>
+                                <a href="#" class="btn play-btn-alternative rounded-pill mb-4">Acquista ora</a>
+                            </div>
+                        </div>
+                        <!-- card -->
+
+                    </div>
                 </div>
             </div>
         </section>
