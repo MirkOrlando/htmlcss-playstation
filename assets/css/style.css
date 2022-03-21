@@ -319,6 +319,14 @@ body {
 
 /* #endregion slider-items */
 
+/* #region ps4 */
+
+.ps4 .subtitle {
+    line-height: 1.5rem;
+}
+
+/* #endregion ps4 */
+
 /* #endregion site-main */
 
 /* #region site-footer */
