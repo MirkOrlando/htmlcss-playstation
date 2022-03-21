@@ -31,6 +31,7 @@
     --paledark: #363636;
     /* .btn acquista ora */
     --altenative: #CD3D0F;
+    --alternative-hover: #ab3611;
     /* border-bottom accessorio */
     --paleprimary: #147DD2;
     /* bottoni */
@@ -50,6 +51,18 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--paledark);
+}
+
+::-webkit-scrollbar-track {
+    display: none;    
 }
 
 /* #endregion common */
@@ -105,6 +118,8 @@ body {
     color: #fff;
     background-color: var(--paledark);
     border-color: var(--paledark);
+    outline: 2px solid transparent;
+    outline-offset: -4px;
     transition: all 150ms linear;
 }
 
@@ -112,6 +127,8 @@ body {
     color: #fff;
     background-color: var(--altenative);
     border-color: var(--altenative);
+    outline: 2px solid transparent;
+    outline-offset: -4px;
     transition: all 150ms linear;
 }
 
@@ -119,6 +136,8 @@ body {
     color: #fff;
     background-color: var(--primary);
     border-color: var(--primary);
+    outline: 2px solid transparent;
+    outline-offset: -4px;
     transition: all 150ms linear;
 }
 
@@ -126,6 +145,8 @@ body {
     color: var(--paleprimary);
     background-color: var(--lighter);
     border-color: var(--lighter);
+    outline: 2px solid transparent;
+    outline-offset: -4px;
     transition: all 150ms linear;
 }
 
@@ -133,6 +154,8 @@ body {
     color: var(--darkerprimary);
     background-color: white;
     border-color: white;
+    outline: 2px solid transparent;
+    outline-offset: -4px;
     transition: all 150ms linear;
 }
 
@@ -172,30 +195,37 @@ body {
 .play-btn-paledark:hover {
     color: #fff;
     outline: 2px solid white;
-    outline-offset: -4px;
 }
 
 .play-btn-primary:hover {
     color: #fff;
+    background-color: var(--darkprimary);
+    border-color: var(--darkprimary);
     outline: 2px solid white;
-    outline-offset: -4px;
 }
 
 .play-btn-alternative:hover {
     color: #fff;
+    background-color: #ab3611;
+    border-color: #ab3611;
     outline: 2px solid black;
-    outline-offset: -4px;
 }
 
 .play-btn-lighter:hover {
     color: var(--paleprimary);
-    outline: 2px solid white;
-    outline-offset: -4px;
+    background-color: var(--light);
+    border-color: var(--light);
+    outline: 2px solid var(--lighter);
+}
+
+.play-btn-lightest:hover {
+    color: var(--darkerprimary);
+    outline: 2px solid var(--darkerprimary);
 }
 
 #site-header .item:hover {
     cursor: pointer;
-    box-shadow: inset 0 0 5px 5px #6261616e;
+    box-shadow: inset 0 0 5px 5px #a1a1a16e;
 }
 
 .slider-cover:hover {
