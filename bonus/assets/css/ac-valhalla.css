@@ -115,9 +115,8 @@ body {
     background-color: var(--darkprimary);
 }
 
-
-.play-lh-1-5 {
-    line-height: 1.5rem;
+.play-fs-075 {
+    font-size: 0.75rem;
 }
 
 .play-btn-paledark {
@@ -298,6 +297,18 @@ input.slider-selector:checked ~ label img {
 /* #endregion site-header */
 
 /* #region site-main */
+
+/* #region jumbotron */
+
+.jumbotron {
+    height: calc(100vh - 116px);
+    background-image: url(../img/ac-valhalla-jumbotron.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* #region jumbotron */
 
 /* #endregion site-main */
 
