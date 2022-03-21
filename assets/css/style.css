@@ -12,7 +12,7 @@
 
 .debug .header-top,
 .debug .jumbotron-break,
-.debug .slighter,
+.debug .slider,
 .debug .jumbotron-adventure,
 .debug .ps5,
 .debug .ps4,
@@ -49,7 +49,6 @@
 }
 
 body {
-    overflow-x: hidden;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -199,16 +198,16 @@ body {
     box-shadow: inset 0 0 5px 5px #6261616e;
 }
 
-.slighter-cover:hover {
+.slider-cover:hover {
     transform: translate(0, -20px);
     cursor: pointer;
 }
 
-.slighter-item:hover img {
+.slider-item:hover img {
     filter: none;    
 }
 
-.slighter-item:hover {
+.slider-item:hover {
     border-bottom: 2px solid var(--paleprimary);    
     color: black;
 }
@@ -267,22 +266,22 @@ body {
 
 /* #endregion jumbotron-break */
 
-/* #region slighter-games */
+/* #region slider-games */
 
-.slighter-cover {
+.slider-cover {
     transition: 250ms linear;
 }
 
-.slighter-cover.active {
+.slider-cover.active {
     border: 2px solid var(--paleprimary);
 }
 
-.slighter-cover.active > img {
+.slider-cover.active > img {
     border: 2px solid white;
 
 } 
 
-/* #endregion slighter-games */
+/* #endregion slider-games */
 
 /* #region jumbotron-adventure */
 
@@ -296,33 +295,37 @@ body {
 
 /* #endregion jumbotron-adventure */
 
-/* #region slighter-items */
+/* #region slider-items */
 
-.slighter-item {
+.slider-item {
     border-bottom: 2px solid transparent;
     transition: 250ms linear;
 }
 
-.slighter-item img {
+.slider-item img {
     filter: contrast(0.5) brightness(1.4);
     transition: 250ms linear;
 }
 
-.slighter-item.active img {
+.slider-item.active img {
     filter: none;    
 }
 
-.slighter-item.active {
+.slider-item.active {
     border-bottom: 2px solid var(--paleprimary);    
     color: black;
 }
 
 
-/* #endregion slighter-items */
+/* #endregion slider-items */
 
 /* #endregion site-main */
 
 /* #region site-footer */
+
+#site-footer {
+    font-size: 0.75rem;
+}
 
 .shared-nav-ps-logo {
     fill: white;    
@@ -330,7 +333,12 @@ body {
 }
 
 .sony-logo-footer {
-    width: 200px;
+    width: 100px;
+}
+
+#site-footer .fa-registered {
+    line-height: unset;
+    font-size: 0.25rem;
 }
 
 /* #endregion site-footer */
