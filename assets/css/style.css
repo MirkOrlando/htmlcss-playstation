@@ -219,9 +219,9 @@ body {
 
 .play-btn-lighter:hover {
     color: var(--paleprimary);
-    background-color: var(--light);
-    border-color: var(--light);
-    outline: 2px solid var(--lighter);
+    background-color: var(--lighter);
+    border-color: var(--lighter);
+    outline: 2px solid var(--light);
 }
 
 .play-btn-lightest:hover {
@@ -249,6 +249,18 @@ body {
 }
 
 /* #endregion hover */
+
+label.slader-label:hover {
+    cursor: pointer;
+}
+
+input.slider-selector:checked ~ div.slider-item-active {
+    display: block;
+} 
+
+input.slider-selector:checked div.slider-item {
+    display: none;
+} 
 
 /* #region site-header */
 
@@ -352,6 +364,15 @@ body {
     color: black;
 }
 
+.slider-item-active {
+    border-bottom: 2px solid var(--paleprimary);    
+    color: black; 
+    display: none;  
+}
+
+.slider-item-active img {
+    filter: none; 
+}
 
 /* #endregion slider-items */
 
