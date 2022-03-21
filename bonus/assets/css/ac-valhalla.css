@@ -299,74 +299,6 @@ input.slider-selector:checked ~ label img {
 
 /* #region site-main */
 
-/* #region jumbotron-break */
-
-.jumbotron-break {
-    background-image: url(../img/jumbo-bg.png);
-    background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: calc(100vh - 116px);
-}
-
-/* #endregion jumbotron-break */
-
-/* #region slider-games */
-
-.slider-cover {
-    transition: 250ms linear;
-}
-
-.slider-cover.active {
-    border: 2px solid var(--paleprimary);
-}
-
-.slider-cover.active > img {
-    border: 2px solid white;
-
-} 
-
-/* #endregion slider-games */
-
-/* #region jumbotron-adventure */
-
-.jumbotron-adventure {
-    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-    background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-}
-
-/* #endregion jumbotron-adventure */
-
-/* #region slider-items */
-
-label.slider-label {
-    border-bottom: 2px solid transparent;
-    transition: 250ms linear;
-    cursor: pointer;
-}
-
-.slider-item img {
-    filter: contrast(0.5) brightness(1.4);
-    transition: 250ms linear;
-}
-
-input.slider-selector {
-    display: none;
-}
-
-/* #endregion slider-items */
-
-/* #region ps4 */
-
-.ps4 .subtitle {
-    line-height: 1.5rem;
-}
-
-/* #endregion ps4 */
-
 /* #endregion site-main */
 
 /* #region site-footer */
@@ -392,21 +324,3 @@ input.slider-selector {
 /* #endregion site-footer */
 
 /* #region media query */
-
-@media screen and (max-width: 399.98px) {
-    
-    .social-container {
-        width: 100%;
-    }
-
-}
-
-@media screen and (min-width: 400px) {
-    
-    .social-container {
-        width: 400px;
-    }
-
-}
-
-/* #endregion media query */
