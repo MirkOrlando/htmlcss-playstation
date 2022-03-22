@@ -336,10 +336,9 @@ input.slider-selector:checked ~ label img {
 
 .jumbotron-adventure {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-    background-position: bottom;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
 }
 
 /* #endregion jumbotron-adventure */
